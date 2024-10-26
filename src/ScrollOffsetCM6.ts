@@ -3,7 +3,7 @@ import { Prec } from '@codemirror/state'
 
 const eventHandlers = {
   mousedown(event: MouseEvent, view: EditorView) {
-    this.switch = false;
+    this.switch = true;
   },
   keydown(event: KeyboardEvent, view: EditorView) {
     this.switch = true;
